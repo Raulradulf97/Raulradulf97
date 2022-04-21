@@ -1,0 +1,42 @@
+#box {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    max-width: 180px;
+  }
+  
+  #box-date {
+    margin: 15px 0;
+    display: block;
+  }
+  
+  #box-date span {
+    color: #848d95;
+    font-size: 13px;
+  }
+  
+  #box-time {
+    color: #848d95;
+    font-size: 22px;
+    display: block;
+  }
+  
+  span.hm-time, span.s-time {
+    padding: 6px 5px;
+    border-radius: 3px;
+  }
+  
+  /* Aquí se cambia el color de fondo de las horas y los minutos */
+  span.hm-time {
+    background: #24AADD;
+    color: #FFF;
+  }
+  
+  /* Aquí se cambia el color de fondo de los segundos */
+  span.s-time {
+    background: #E5E5E5;
+  }
+  
+  span.f-time {
+    font-size: 13px;
+  }
+  
